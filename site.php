@@ -38,7 +38,7 @@ if($op == "+"){
 <?php include "gpa.php"; ?><br>
 <h3> Movie Rating:</h3>
 <?php include "rating.php" ?>
-<h3> Yummy Dishes:</h3>
+<h2> Yummy Dishes:</h2>
 <?php include "inherit.php" ?>
 </body>
 </html>
