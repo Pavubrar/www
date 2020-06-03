@@ -65,6 +65,7 @@ function estSope()
     echo<<<'EOT'
     I am using nowdoc $binary
     EOT;
+    echo"<br/>";
     
     //ARRAYS
     $students = array(
@@ -72,8 +73,10 @@ function estSope()
     );
     $persons =['reading', 'eating', 'swiming'];
     echo $persons[0];
+    echo"<br/>";
     echo $students['name'];   //associative arrays.
-    print_r ($students['likes']);
+    echo"<br/>";
+    print_r ($students['likes']); // prints the info stored in a variable.
     echo $students['likes'][1];
   //  var_dump($students);
   
