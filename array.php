@@ -24,18 +24,19 @@ $students[] = ["name"=>"Brar",'Course'=> 'Computer Science', 'Age' => 33, 'Grade
 array_pop($students);
 
 echo count($students);
+ require 'templates/index.tpl.php';
 
-echo "<h2>List of Students</h2>";
+// echo "<h2>List of Students</h2>";
 
-foreach ($students as $key => $value) {
-    echo"<ul>";
-    if(is_array($value)){
-        foreach($value as $attribute =>$val){
-            echo "<li> $attribute  : $val </li>";
-        }
-    }else {
-        echo "<li> $key  : $value </li>";
-    }
-    echo"</ul><hr/>";
-}
+// foreach ($students as $key => $value) {
+//     echo"<ul>";
+//     if(is_array($value)){
+//         foreach($value as $attribute =>$val){
+//             echo "<li> $attribute  : $val </li>";
+//         }
+//     }else {
+//         echo "<li> $key  : $value </li>";
+//     }
+//     echo"</ul><hr/>";
+// }
 ?>
