@@ -20,5 +20,11 @@
          <?php endif; ?>
          </ul><hr/>
          <?php endforeach; ?>
+
+         <?php if($isLeapYear): ?>
+         <?= $year ?> is a leap year;
+         <?php else : ?>
+         <?= $year ?> is not a leap year;
+         <?php endif; ?>
 </body>
 </html>
