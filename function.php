@@ -75,4 +75,15 @@ function arrayHelper($array)
     echo "</ul>";
 }
 
+#FLATTEN ARRAY
+
+function flattenArray($array){
+    foreach($array as $attribute => $value){
+        if(is_array($value)){
+            flattenArray($value);
+        }else{
+            echo "{$attribute} : {$value}<br/>";
+        }
+    }
+}
  require "templates/index.tpl.php";

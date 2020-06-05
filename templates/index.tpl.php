@@ -35,6 +35,9 @@
          ?><br/>
          <?php 
          arrayHelper($students);
+         ?><br/>
+          <?php 
+         flattenArray($students);
          ?>
 </body>
 </html>
