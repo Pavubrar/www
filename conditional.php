@@ -7,6 +7,7 @@ echo"<br/>";
 // }else {
 //     echo "$year is not a leap year";
 // }
+// echo "<br/>";
 # WHILE LOOP
 $i = 50;
 while($i != 5) {
@@ -38,7 +39,12 @@ for ($i = 1; $i<15; $i++){
     echo "The valu of i is $i <br/>";
 }
 
- require"templates/index.tpl.php";
+#CUSTOM FUNCTION
 
+// function courseName($name, $author, $pages){
+//     echo "The course $name, is made by {$author}, has {$pages} pages";
+// }
+
+//  require  "templates/index.tpl.php";
 
 ?>

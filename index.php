@@ -81,11 +81,12 @@ function estSope()
     echo $students['likes'][1];
   //  var_dump($students);
     echo "<br/>";
-    include "constant.php" ;
+    // include "constant.php" ;
     
-    include "string.php";
-    include "array.php";
-    require "conditional.php";
+    // include "string.php";
+    // include "array.php";
+    include "conditional.php";
+    include "function.php";
     
 ?>
     </body>

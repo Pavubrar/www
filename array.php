@@ -24,7 +24,7 @@ $students[] = ["name"=>"Brar",'Course'=> 'Computer Science', 'Age' => 33, 'Grade
 array_pop($students);
 
 echo count($students);
- require 'templates/index.tpl.php';
+ 
 
 // echo "<h2>List of Students</h2>";
 
@@ -39,4 +39,8 @@ echo count($students);
 //     }
 //     echo"</ul><hr/>";
 // }
+
+
+
+require 'templates/index.tpl.php';
 ?>
